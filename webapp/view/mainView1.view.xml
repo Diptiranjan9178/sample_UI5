@@ -1,0 +1,43 @@
+<mvc:View
+    xmlns:uxap="sap.uxap"
+    controllerName="fragment.controller.mainView1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+>
+    <Page
+        id="page"
+        title="{i18n>title}"
+        class="sapUiContentPadding"
+    >
+        <content>
+            <Label
+                id="idlbltxt"
+                text="Enter Name"
+            />
+            <Input
+                id="idinpt"
+                value=""
+            />
+            <Label
+                id="idlbltxt2"
+                text="Enter Age"
+            />
+            <Input
+                id="idinpt2"
+                value=""
+            />
+        </content>
+        <footer>
+            <Bar id="idbar">
+                <contentRight>
+                    <Button
+                        id="idbtn"
+                        text="Open Fragment"
+                        press="onPress"
+                        type="Accept"
+                    />
+                </contentRight>
+            </Bar>
+        </footer>
+    </Page>
+</mvc:View>

@@ -1,0 +1,26 @@
+<core:FragmentDefinition
+    id="idfragment"
+    xmlns="sap.m"
+    xmlns:core="sap.ui.core"
+>
+    <Dialog id="iddialog">
+        <content>
+            <Label
+                id="idlabel"
+                text="Enter Name"
+            />
+            <Input
+                id="idinptk"
+                value=""
+            />
+        </content>
+        <endButton>
+            <Button
+                id="idbuttong"
+                text="close"
+                press="onclose"
+                type="Emphasized"
+            />
+        </endButton>
+    </Dialog>
+</core:FragmentDefinition>
