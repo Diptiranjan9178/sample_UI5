@@ -24,7 +24,7 @@ sap.ui.define([
             }
         },
         onclose() {
-            this.byId('iddialog').close();
+            this.byId('idbuttong').close();
         }
     });
 });

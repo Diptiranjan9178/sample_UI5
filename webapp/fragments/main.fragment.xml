@@ -11,16 +11,16 @@
             />
             <Input
                 id="idinptk"
-                value=""
+               
             />
         </content>
-        <endButton>
+        
             <Button
                 id="idbuttong"
                 text="close"
                 press="onclose"
                 type="Emphasized"
             />
-        </endButton>
+       
     </Dialog>
 </core:FragmentDefinition>
